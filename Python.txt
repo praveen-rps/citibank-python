@@ -106,7 +106,7 @@ int ---> numbers,
 Python has the following data types built-in by default, in these categories:
 -----------------------------------------------------------------------------
 
-Text Type: 			str
+Text Type: 		str
 
 Numeric Types: 		int, float, complex
 
@@ -167,11 +167,31 @@ s5;
 
 
 1. Conditional based control statements
-	if, while, for , loop
+	if, while, 
+
+	for , loop---ITERATION
 
 
 2. Unconditional based control statements
    break, continue, pass
+
+INDENDATATION
+
+if( a < b)
+{
+
+
+}
+else{
+
+
+}
+
+if cond
+   s1;
+   s2;
+ s3;
+
 
 
 
@@ -289,7 +309,10 @@ for x in [10,20,30]
 contiue
 break
 
-
+for 
+	for 
+		break
+ 
 Practice programs
 ------------------
 
@@ -314,12 +337,13 @@ Collection / Sequences ---> Array, List, tuple, Set, dictionary
 Array
 -----
 
-A array is a homogeneous collection of elements
+A array is a collection of elements
 
 import array as arr
 
 
 Array in Python can be created by importing array module. 
+
 array(data_type, value_list)
 
 # array with int type
@@ -328,7 +352,7 @@ a = arr.array('i', [1, 2, 3])  # i refers to integer
 
 a = [1,2,"praveen",True] ----> list
 
-a[0]--->
+a[0]--->1
 a[1]---->2
 a[2]---->praveen
 a[3]----> True
@@ -412,7 +436,9 @@ Lists are mutable
 
 It allows duplicates
 
-
+list1 = ["abc", 34, True, 40, "male"]
+mylist = ["apple", "banana", "cherry"]
+thislist = list(("apple", "banana", "cherry"))
 
 
 
